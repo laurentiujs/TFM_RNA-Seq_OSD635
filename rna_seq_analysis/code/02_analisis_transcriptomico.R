@@ -224,11 +224,12 @@ pheatmap(cor_matrix,
          clustering_method = "ward.D2",
          filename = file.path(dir_out, "Grafico_Correlacion.png"), width = 7, height = 6)
 
-# Selección de genes diferencialmente expresados
+# Selección de genes diferencialmente expresados para el mapa de calor
 DEG <- test_hn_corrected$table[test_hn_corrected$table$FDR <= 0.05 & abs(test_hn_corrected$table$logFC) >= 1 ,]
 DEG_ordenado <- DEG[order(DEG$FDR), ]
+DEG_ordenado <- DEG_ordenado[!is.na(DEG_ordenado$SYMBOL), ]
 DEG_top50 <- head(DEG_ordenado, 50)
-DEG_selection <- logcpm[na.omit(DEG_top50$SYMBOL),]
+DEG_selection <- logcpm[DEG_top50$SYMBOL, ] 
 cat("Genes diferencialmente expresados:", nrow(DEG))
 cat("Porcentaje de genes diferencialmente expresados:", nrow(DEG)/nrow(y_filtrado)*100)
 
