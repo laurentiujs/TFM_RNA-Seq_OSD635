@@ -22,27 +22,27 @@ No obstante, Salmon requiere que el transcriptoma de referencia esté previament
 
 ```text
 rna_seq_analysis/
-├── code/					<-- [GitHub]
+├── code/									<-- [GitHub]
 │   ├── 01_analisis_primario.sh               
 │   └── 02_analisis_transcriptomico.R         
 ├── data/
-│   ├── metadata/				<-- [GitHub]
+│   ├── metadata/							<-- [GitHub]
 │   │   └── OSD-635_metadata_OSD-635-ISA/
 │   │       ├── s_OSD-635.txt                 
 │   │       └── (resto de archivos ISA) 
-│   ├── raw/					<-- [Auto] Descargas temporales de FASTQ crudos
-│   ├── processed/				<-- [Auto] Directorio de trabajo intermedio
-│   │   ├── 1_quality_control_pre/		<-- [Auto] Outputs de FastQC pre-trimming
-│   │   ├── 1_quality_control_post/		<-- [Auto] Outputs de FastQC post-trimming
-│   │   ├── 2_trimming/			<-- [Auto] Outputs y logs de fastp
-│   │   ├── 3_pseudoalignment/			<-- [Auto] Archivos de Salmon
-│   │   └── 4_multiqc/				<-- [Auto] Archivos MultiQC
-│   └── reference_transcriptome/		<-- [Manual] Directorio a crear por el usuario
-│       └── index_transcripts_hg38_v49/	<-- [Manual] Transcriptoma previamente indexado
-└── results/					<-- [GitHub] Al volver a ejecutar los scripts, se sobreescriben
-    ├── multiqc_report_OSD635.html		<-- [GitHub] Reporte interactivo global de MultiQC
-    ├── *_quant.sf				<-- [Auto] Generados por el script 01_analisis_primario.sh
-    └── R_results/				<-- [GitHub] Resultados de R
+│   ├── raw/								<-- [Auto] Descargas temporales de FASTQ crudos
+│   ├── processed/							<-- [Auto] Directorio de trabajo intermedio
+│   │   ├── 1_quality_control_pre/			<-- [Auto] Outputs de FastQC pre-trimming
+│   │   ├── 1_quality_control_post/			<-- [Auto] Outputs de FastQC post-trimming
+│   │   ├── 2_trimming/						<-- [Auto] Outputs y logs de fastp
+│   │   ├── 3_pseudoalignment/				<-- [Auto] Archivos de Salmon
+│   │   └── 4_multiqc/						<-- [Auto] Archivos MultiQC
+│   └── reference_transcriptome/			<-- [Manual] Directorio a crear por el usuario
+│       └── index_transcripts_hg38_v49/		<-- [Manual] Transcriptoma previamente indexado
+└── results/								<-- [GitHub] Al volver a ejecutar los scripts, se sobreescriben
+    ├── multiqc_report_OSD635.html			<-- [GitHub] Reporte interactivo global de MultiQC
+    ├── *_quant.sf							<-- [Auto] Generados por el script 01_analisis_primario.sh
+    └── R_results/							<-- [GitHub] Resultados de R
         ├── Grafico_MDS.png                   
         ├── Grafico_BCV.png                   
         ├── Grafico_QLDisp.png                
@@ -53,7 +53,7 @@ rna_seq_analysis/
         ├── Grafico_KEGG_*.png                
         ├── Grafico_Pathview_*.png            
         ├── Grafico_GSEA_*.png                
-        ├── Resultados_*.csv			<-- Tablas 01 a 12 con datos de expresión
+        ├── Resultados_*.csv				<-- Tablas 01 a 12 con datos de expresión
         └── Resultados_sessionInfo.txt		<-- Información de la sesión de R
 
 ```
