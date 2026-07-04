@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	CRO	OBI	MESH	RBO
+Term Source File	http://data.bioontology.org/ontologies/EFO			http://data.bioontology.org/ontologies/OBI		
+Term Source Version	132			29		
+Term Source Description	Experimental Factor Ontology			Ontology for Biomedical Investigations		
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-635
+Study Title	Spaceflight effects on human vascular smooth muscle cell phenotype and function
+Study Description	The cardiovascular system is strongly impacted by the hazards of spaceflight. Astronauts spending steadily increasing lengths of time in microgravity are subject to cardiovascular deconditioning resulting in loss of vascular tone, reduced total blood volume, and diminished cardiac output. Appreciating the mechanisms by which the cells of the vasculature are altered during spaceflight will be integral to understanding and combating these deleterious effects as the human presence in space advances. In this study, we performed RNA-Seq analysis coupled with review by QIAGEN Ingenuity Pathway Analysis software on human aortic smooth muscle cells (HASMCs) cultured for 3 days in microgravity and aboard the International Space Station to assess the transcriptomic changes that occur during spaceflight. The results of our RNA-Seq analysis show that SMCs undergo a wide range of transcriptional alteration while in space, significantly affecting 4,422 genes. SMCs largely down-regulate markers of the contractile, synthetic, and osteogenic phenotypes including smooth muscle alpha actin (αSMA), matrix metalloproteinases (MMPs), and bone morphogenic proteins (BMPs). Additionally, components of several cellular signaling pathways were strongly impacted including the STAT3, NFκB, PI3K/AKT, HIF1α, and Endothelin pathways. This study highlights the significant changes in transcriptional behavior SMCs exhibit during spaceflight and puts these changes in context to better understand vascular function in space.
+Study Submission Date	25-Jul-2023
+Study Public Release Date	03-Apr-2024
+Study File Name	s_OSD-635.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/8n5a-q187
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Kayser experimental unit (KEU-RO)
+Comment[Flight Program]	International Space Station (ISS)
+Comment[Funding]	This work was funded by a grant to J.B.A. (# GA-2017-252) from the Florida Space Institute, Space Research Initiative (SRI), Joint University of Florida-Center for the Advancement of Science in Space- (CASIS) International Space Station Research Initiative.
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Ames Research Center (ARC)
+Comment[Mission End]	06/03/2019
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-17
+Comment[Mission Name]	SpaceX-17
+Comment[Mission Start]	05/04/2019
+Comment[Project Identifier]	Bioscience-3
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	low Earth orbit
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/RBO_00000019
+Study Design Type Term Source REF	RBO
+STUDY PUBLICATIONS
+Study PubMed ID	38548798
+Study Publication DOI	10.1038/s41526-024-00380-w
+Study Publication Author List	Scotti MM, Wilson BK, Bubenik JL, Yu F, Swanson MS, Allen JB.
+Study Publication Title	Spaceflight effects on human vascular smooth muscle cell phenotype and function.
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.nature.com/articles/s41526-024-00380-w.pdf
+STUDY FACTORS
+Study Factor Name	Spaceflight
+Study Factor Type	Space Flight
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026
+Study Factor Type Term Source REF	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-635_transcription-profiling_rna-sequencing-(rna-seq)_illumina.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	obo:OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	RNA Sequencing (RNA-Seq)
+Study Assay Technology Type Term Accession Number	obo:OBI_0001271
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	treatment protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	GeneLab raw data processing protocol	GeneLab RNAseq data processing protocol
+Study Protocol Type	growth protocol	treatment protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	data transformation	data transformation
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789	https://osdr.nasa.gov/					http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	OBI	OBI
+Study Protocol Description	Human aortic smooth muscle cells (HASMC) and smooth muscle cell growth media (SmGM) were purchased from Cell Applications (San Diego, CA). The growth media consists of basal media supplemented with 5% fetal bovine serum, recombinant insulin, epidermal growth factor (EGF), basic fibroblast growth factor (bFGF), insulin-like growth factor (R3IGF), ascorbic acid, pen/strep, and amphotericin B, and was used for all pre-flight, flight, and ground-based cultures. HASMC are adherent cells, as such, in all space flight and ground-based cultures the HASMC were seeded onto fibronectin coated (25ug/ml) cytodex-1 microcarrier beads (1mg/ml) (Sigma, St. Louis, MO) at a density of 10 cells/microcarrier bead in an ultra-low attachment plate (Corning, Corning, NY), and allowed to attach overnight at 37C, 5% CO2 in a humidified chamber. Cells were cultured on microcarrier beads an additional three days in normal gravity to allow for proliferation and acclimation to the beads prior to loading into the flight hardware cell culture chambers. Prior to loading the HASMCs into the KEU-RO cell culture chambers, media was changed to fresh SmGM.	The Bioscience-3 flight hardware set consisted of 6 KAB controller interface containers (KIC), each housing one Kayser experimental unit (KEU-RO) developed by Kayser Italia (Livorno, Italy). Each KEU-RO was constructed from a biologically compatible plastic, polyetheretherketone (PEEK) consisting of two culture chamber housings (CCH). Each CCH contains two separate cell culture chambers with two separate independent fluid systems that function via a piston system to deliver SmGM- 2 or RNAlater fixative (Invitrogen, Waltham, MA, USA) allowing each complete KEU-RO assembly to hold four separate experimental samples. Three KEU-RO cell culture chambers housing three populations of smooth muscle cells were sent to space. Once aboard the International Space Station (ISS), the KEU-RO were inserted into the Space Technology and Advanced Research Systems (STaARS) incubator where temperature was actively maintained at 37C. The three chambers were cultured in microgravity for three days, including both the time in orbit and installation in the International Space Station (ISS). The KEU-RO are capable of automated media addition to the cell culture chambers as well as the addition of RNAlater fixative at the experimental end point on a pre-defined timeline. Once fixed, the KICs containing the KEU-RO were moved and maintained at -80C until return to Earth. The ground control experiments were also conducted in the KEU-RO hardware units and were manually activated for media refresh and cell fixation using the same experimental protocol and temperature conditions as the space flight samples. SpaceX CRS-17 was a Commercial Resupply Services (CRS) mission to the ISS. The SpaceX Falcon 9 rocket was launched along with the Dragon capsule from Space Launch Complex 40 at Cape Canaveral Air Force Station in Florida, USA. The CRS-17 delivered more than 5,500 pounds of research, supplies, equipment, and hardware to the ISS, including the KEU-RO containing human HASMCs. Approximately 48 hours after launch, the dragon capsule was docked to the ISS, and approximately 24 hours later, the KEU-RO were installed in the STaARS-1 incubator space for active temperature control at 37C. While in flight to the ISS and in orbit prior to dock with the ISS, the KEU-RO temperatures were passively maintained and monitored in real-time. During ascent the temperatures held steady at 37 C +/- 0.5C until installation on board the ISS. Once installed in STaARS-1 incubator space aboard the ISS, the hardware temperature was maintained at 37C +/- 1C. The samples from our study spent a total of 3 days in microgravity before being stored frozen, and a total of ~30 days aboard the International Space Station before return to earth.	At 3 days in space, the units were fixed by automated injection of 900 uL RNAlater directly into the cell culture housing chambers (CCH), and transferred to -80C within 90 minutes of fixation.	Upon return to earth, KIC units were thawed on ice and samples extracted from each KEU-RO. Total RNA was extracted from the SMCs preserved in RNAlater with the RNeasy RNA Extraction kit (QIAGEN, Germantown, MD, USA) in conjunction with QIAshredders columns (QIAGEN). Samples were DNase treated (Turbo DNase, Invitrogen, Waltham, MA) and quantitated with Quant-iT RiboGreen RNA assay (Invitrogen). Total RNA quality was assessed using a Fragment Analyzer.	Poly(A) selected cDNA libraries were prepared (NEBNext UltraII Directional RNA Library Prep kit, NEB, Ipswich, MA), following manufacturers recommendations. SMC libraries were constructed by using 100 ng total RNA.	Sequencing was performed on the NextSeq500 Illumina platform.	Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of H-sapiens rRNA sequences retrieved from NCBI on 01-Sep-2021.	Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Homo Sapiens STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCh38 (Homo_sapiens.GRCh38.dna.primary_assembly.fa) and the following gtf annotation file: Homo_sapiens.GRCh38.112.gtf. Trimmed reads were aligned to the Homo Sapiens STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Hs.eg.db (version 3.19.1).
+Study Protocol URI								
+Study Protocol Version								
+Study Protocol Parameters Name	Growth Temperature;Sample Media Information	duration	Sample Preservation Method;Sample Storage Temperature	QA Instrument	Library Selection;Library Layout;Stranded;Library Kit	Sequencing Instrument;Read Length	Read Depth;MultiQC File Names;rRNA Contamination	trimmed sequence data;Trimmed Sequence Data/Trimming Reports;Trimmed Sequence Data/MultiQC Reports;aligned sequence data;Aligned Sequence Data/Unmapped Reads;Aligned Sequence Data/Alignment Logs;Aligned Sequence Data/MultiQC Reports;RSeQC/MultiQC Reports;Raw Counts Data;Raw Counts Tables;Raw Counts Data/MultiQC Reports;Normalized Counts Data;differential expression analysis data
+Study Protocol Parameters Name Term Accession Number	https://osdr.nasa.gov/;https://osdr.nasa.gov/	http://www.ebi.ac.uk/efo/EFO_0000433	https://genelab-data.ndc.nasa.gov/;https://genelab-data.ndc.nasa.gov/		;;;https://osdr.nasa.gov/	;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/;https://osdr.nasa.gov/	http://purl.obolibrary.org/obo/OBI_0002569;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002580;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002584
+Study Protocol Parameters Name Term Source REF	;	EFO	;		;;;	;NCIT	NCIT;;	OBI;;;OBI;;;;;;;;;OBI
+Study Protocol Components Name								
+Study Protocol Components Type								
+Study Protocol Components Type Term Accession Number								
+Study Protocol Components Type Term Source REF								
+STUDY CONTACTS
+Study Person Last Name	Allen
+Study Person First Name	Josephine
+Study Person Mid Initials	
+Study Person Email	jallen@mse.ufl.edu
+Study Person Phone	
+Study Person Fax	
+Study Person Address	100 Rhines Hall
+Study Person Affiliation	University of Florida - Gainesville, FL
+Study Person Roles	conceptualization role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	CRO
+Comment[orcidIdentifier]	0000-0002-5676-0020
