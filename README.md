@@ -22,7 +22,6 @@ No obstante, Salmon requiere que el transcriptoma de referencia esté previament
 
 ```text
 rna_seq_analysis/
-├── README.md					<-- [GitHub]
 ├── code/					<-- [GitHub]
 │   ├── 01_analisis_primario.sh               
 │   └── 02_analisis_transcriptomico.R         
@@ -57,8 +56,7 @@ rna_seq_analysis/
         ├── Resultados_*.csv			<-- Tablas 01 a 12 con datos de expresión
         └── Resultados_sessionInfo.txt		<-- Información de la sesión de R
 
-
----
+```
 
 ## PREPARACIÓN PREVIA
 
