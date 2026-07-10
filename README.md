@@ -4,7 +4,7 @@ Repositorio con el código utilizado y los resultados correspondientes al Trabaj
 de las células musculares lisas vasculares mediante RNA-Seq* realizado para la **Universidad Internacional de Valencia**. 
 
 Este proyecto contiene un pipeline bioinformático automatizado para el análisis de datos de RNA-seq (bulk) procedentes del repositorio Open Science Data Repository (OSDR) de la NASA
-(código de acceso del conjunto de datos: **OSD-635**). El objetivo es identificar diferencias en la expresión génica y rutas metabólicas alteradas bajo condiciones de microgravedad frente a controles en Tierra.
+(código de acceso del conjunto de datos: **OSD-635**). El objetivo es identificar diferencias en la expresión génica y rutas metabólicas alteradas en la plasticidad fenotípica de las células musculares lisas vasculares bajo condiciones de microgravedad frente a controles en Tierra.
 
 ---
 
@@ -79,6 +79,6 @@ rna_seq_analysis/
 
 ## AUTORÍA
 
-Laurentiu Jalba Staver
-Máster Universitario en Bioinformática por la Universidad Internacional de Valencia
-Julio 2026
+- Laurentiu Jalba Staver
+- Máster Universitario en Bioinformática por la Universidad Internacional de Valencia
+- Julio 2026
