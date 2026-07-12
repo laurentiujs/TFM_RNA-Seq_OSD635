@@ -1,7 +1,7 @@
-# Análisis transcriptómico del dataset OSD-635
+# Análisis transcriptómico del conjunto de datos OSD-635
 
-Repositorio con el código utilizado y los resultados correspondientes al Trabajo Fin de Máster titulado *Microgravedad y remodelado vascular: Análisis transcriptómico de la plasticidad fenotípica
-de las células musculares lisas vasculares mediante RNA-Seq* realizado para la **Universidad Internacional de Valencia**. 
+Repositorio con el código utilizado y los resultados correspondientes al Trabajo Fin de Máster titulado **Microgravedad y remodelado vascular: Análisis transcriptómico de la plasticidad fenotípica
+de las células musculares lisas vasculares mediante RNA-Seq** realizado para la **Universidad Internacional de Valencia**. 
 
 Este proyecto contiene un pipeline bioinformático automatizado para el análisis de datos de RNA-seq (bulk) procedentes del repositorio Open Science Data Repository (OSDR) de la NASA
 (código de acceso del conjunto de datos: **OSD-635**). El objetivo es identificar diferencias en la expresión génica y rutas metabólicas alteradas en la plasticidad fenotípica de las células musculares lisas vasculares bajo condiciones de microgravedad frente a controles en Tierra.
@@ -66,16 +66,17 @@ rna_seq_analysis/
 
 ## PROGRAMAS NECESARIOS
 
-1. Herramientas para el análisis primario en bash: wget, FastQC, fastp, Salmon, MultiQC
-2. Herramientas para el análisis secundario en R: Rstudio y los paquetes de R tximport, edgeR, EnsDb.Hsapiens.v86, org.Hs.eg.db, ggplot2, pheatmap, clusterProfiler, ggrepel, enrichplot, pathview.
+1. Herramientas para el análisis primario en bash: conda, wget, FastQC, fastp, Salmon, MultiQC
+2. Herramientas para el análisis secundario en R: RStudio y los paquetes de R tximport, edgeR, EnsDb.Hsapiens.v86, org.Hs.eg.db, ggplot2, pheatmap, clusterProfiler, ggrepel, enrichplot, pathview.
 
 ## INSTRUCCIONES DE EJECUCIÓN
 
 1. Análisis primario en bash (01_analisis_primario.sh)
 	Otorgar permisos de ejecución al script: chmod +x 01_analisis_primario.sh
 	Ejecutar el script: ./01_analisis_primario.sh
-2. Análisis de expresión diferencial y enriquecimeinto funcional en R (02_analisis_transcriptomico.R)
+2. Análisis de expresión diferencial y enriquecimiento funcional en R (02_analisis_transcriptomico.R)
 	Ejecutar el script desde la consola de R: source("code/02_analisis_transcriptomico.R")
+	Nota: Asegurarse de que el directorio de trabajo en R sea el directorio raíz del proyecto: rna_seq_analysis/
 
 ## AUTORÍA
 
