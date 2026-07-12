@@ -103,7 +103,7 @@ y <- DGEList(counts = txi$counts, group = grupo, genes = anotacion)
 genes_filtrados <- filterByExpr(y)
 
 # Se indica que se recalcule el tamaño efectivo de las bibliotecas con los genes de baja expresión o nula excluidos para
-# mejorar la precisión estadítica.
+# mejorar la precisión estadística.
 y_filtrado <- y[genes_filtrados, , keep.lib.sizes = FALSE]
 genes_mantenidos <- (sum(genes_filtrados) / length(genes_filtrados)) * 100
 
@@ -180,7 +180,7 @@ etiquetas_leyenda <- c(
   "Up" = paste0("Up (", n_up, ")")
 )
 
-# Preparación de datos para etiquetarr genes en el gráfico
+# Preparación de datos para etiquetar genes en el gráfico
 up_sig <- data_volcano[data_volcano$DE == "Up", ]
 down_sig <- data_volcano[data_volcano$DE == "Down", ]
 up_sig_clean <- up_sig[!is.na(up_sig$SYMBOL), ]
