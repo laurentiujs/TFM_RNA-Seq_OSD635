@@ -72,11 +72,12 @@ rna_seq_analysis/
 ## INSTRUCCIONES DE EJECUCIÓN
 
 1. Análisis primario en bash (01_analisis_primario.sh)
-	1.1 Otorgar permisos de ejecución al script: chmod +x 01_analisis_primario.sh
-	1.2 Ejecutar el script: ./01_analisis_primario.sh
+    * 1.1 Otorgar permisos de ejecución al script: `chmod +x 01_analisis_primario.sh`
+    * 1.2 Ejecutar el script: `./01_analisis_primario.sh`
+
 2. Análisis de expresión diferencial y enriquecimiento funcional en R (02_analisis_transcriptomico.R)
-	2.1 Ejecutar el script desde la consola de R: source("code/02_analisis_transcriptomico.R")
-	- Nota: Asegurarse de que el directorio de trabajo en R sea el directorio raíz del proyecto: rna_seq_analysis/
+    * 2.1 Ejecutar el script desde la consola de R: `source("code/02_analisis_transcriptomico.R")`
+        * Nota: Asegurarse de que el directorio de trabajo en R sea el directorio raíz del proyecto: `rna_seq_analysis/`
 
 ## AUTORÍA
 
