@@ -61,7 +61,7 @@ rna_seq_analysis/
 ## PREPARACIÓN PREVIA
 
 1. Descargar este repositorio
-2. Crear manualmente el directorio data/reference_transcriptome/ y alojar aquí el transcriptoma de referencia previamente indexado con el nombre index_transcripts_hg38_v49
+2. Crear manualmente el directorio `data/reference_transcriptome/` y alojar aquí el transcriptoma de referencia previamente indexado con el nombre `index_transcripts_hg38_v49`
 
 
 ## PROGRAMAS NECESARIOS
